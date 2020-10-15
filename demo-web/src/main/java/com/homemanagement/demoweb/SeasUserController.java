@@ -28,6 +28,7 @@ public class SeasUserController {
                 seasUser = null;
             }
         }
+        System.out.println("123");
         //SeasUser seasUser = seasUserService.getSeasUser(id);
         return seasUser;
     }
